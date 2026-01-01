@@ -107,7 +107,7 @@ Data cleaning was performed **before loading into Power BI**, focusing on:
 - Identifies **unusual spikes and drops**
 - Drill-through to date-level detail table
   
-![Customer Anomalies](images/anomaly_table.png)
+![Customer Anomalies](images/anomaly_trend.png)
 
 ### 4️⃣ Customer Anomaly Detection Table
 Customer-level metrics used to identify risky or abnormal behavior:
@@ -117,7 +117,7 @@ Customer-level metrics used to identify risky or abnormal behavior:
 - Cancelled %
 - Total Returned Amount
 
-![Customer Anomalies](images/anomaly_trend.png)
+![Customer Anomalies](images/anomaly_table.png)
 
 Conditional formatting highlights:
 - 🔴 High cancellation percentage
