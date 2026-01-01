@@ -60,7 +60,6 @@ Data cleaning was performed **before loading into Power BI**, focusing on:
 - **Returns** → Negative quantity invoices
 - **Net Revenue** → Revenue from active (non-cancelled) invoices only
 - **Cancelled Orders** → Orders with return quantities
-- **Return Rate** → Returned quantity ÷ (Sold + Returned quantity)
 
 ---
 
@@ -194,6 +193,6 @@ Identified customers with:
 ---
 
 ## 📄 Full Report
-[Download PDF Report](Report/Retail_KPI_Anomaly_Report.pdf)
+[Download PDF Report](analysis.pdf)
 
 
