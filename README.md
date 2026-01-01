@@ -88,7 +88,7 @@ Data cleaning was performed **before loading into Power BI**, focusing on:
 - Drill-through enabled for deeper analysis
 
 ## 📷 Dashboard Preview
-![Dashboard](Images/dashboard_overview.png)
+![Dashboard](images/dashboard.png)
 
 ### 2️⃣ Country Drill-through Page
 - Displays selected country dynamically
@@ -100,14 +100,15 @@ Data cleaning was performed **before loading into Power BI**, focusing on:
   - Returned Amount
   - Zero-priced products
 ## Country Drill-Through Analysis
-![Country Drillthrough](images/country_drillthrough.png)
+![Country Drillthrough](images/drillthrough_page.png)
 
 ### 3️⃣ Anomaly Detection – Time Series
 - **Net Revenue by Date** line chart
 - Power BI anomaly detection enabled
 - Identifies **unusual spikes and drops**
 - Drill-through to date-level detail table
-![Customer Anomalies](images/customer_anomalies.png)
+  
+![Customer Anomalies](images/anomaly table.png)
 
 ### 4️⃣ Customer Anomaly Detection Table
 Customer-level metrics used to identify risky or abnormal behavior:
@@ -116,7 +117,8 @@ Customer-level metrics used to identify risky or abnormal behavior:
 - Cancelled Orders
 - Cancelled %
 - Total Returned Amount
-![Customer Anomalies](images/customer_anomalies.png)
+
+![Customer Anomalies](images/anomaly trend.png)
 
 Conditional formatting highlights:
 - 🔴 High cancellation percentage
