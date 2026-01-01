@@ -87,7 +87,7 @@ Data cleaning was performed **before loading into Power BI**, focusing on:
 - Interactive slicers for **Country** and **Year**
 - Drill-through enabled for deeper analysis
 
-## 📷 Dashboard Preview
+
 ![Dashboard](images/dashboard.png)
 
 ### 2️⃣ Country Drill-through Page
@@ -99,7 +99,7 @@ Data cleaning was performed **before loading into Power BI**, focusing on:
   - Quantity Returned
   - Returned Amount
   - Zero-priced products
-## Country Drill-Through Analysis
+
 ![Country Drillthrough](images/drillthrough_page.png)
 
 ### 3️⃣ Anomaly Detection – Time Series
