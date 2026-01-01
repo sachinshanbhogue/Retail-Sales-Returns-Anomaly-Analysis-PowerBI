@@ -45,6 +45,11 @@ Data cleaning was performed **before loading into Power BI**, focusing on:
 ✔ Handled zero-priced products  
 ✔ Ensured Quantity sign consistency  
 
+**Flags Created:**
+- `Invoice_Status` → Active / Cancelled
+- `Quantity_Flag` → Sale / Return
+- `Price_Flag` → Normal / Zero / Anomaly
+
 > Cleaning was done in **Power Query** to ensure model stability and accurate DAX results.
 
 ---
@@ -82,6 +87,9 @@ Data cleaning was performed **before loading into Power BI**, focusing on:
 - Interactive slicers for **Country** and **Year**
 - Drill-through enabled for deeper analysis
 
+## 📷 Dashboard Preview
+![Dashboard](Images/dashboard_overview.png)
+
 ### 2️⃣ Country Drill-through Page
 - Displays selected country dynamically
 - Product-level performance
@@ -91,12 +99,15 @@ Data cleaning was performed **before loading into Power BI**, focusing on:
   - Quantity Returned
   - Returned Amount
   - Zero-priced products
+## Country Drill-Through Analysis
+![Country Drillthrough](images/country_drillthrough.png)
 
 ### 3️⃣ Anomaly Detection – Time Series
 - **Net Revenue by Date** line chart
 - Power BI anomaly detection enabled
 - Identifies **unusual spikes and drops**
 - Drill-through to date-level detail table
+![Customer Anomalies](images/customer_anomalies.png)
 
 ### 4️⃣ Customer Anomaly Detection Table
 Customer-level metrics used to identify risky or abnormal behavior:
@@ -105,6 +116,7 @@ Customer-level metrics used to identify risky or abnormal behavior:
 - Cancelled Orders
 - Cancelled %
 - Total Returned Amount
+![Customer Anomalies](images/customer_anomalies.png)
 
 Conditional formatting highlights:
 - 🔴 High cancellation percentage
@@ -179,5 +191,7 @@ Identified customers with:
 
 ---
 
-## 📂 Repository Structure
+## 📄 Full Report
+[Download PDF Report](Report/Retail_KPI_Anomaly_Report.pdf)
+
 
